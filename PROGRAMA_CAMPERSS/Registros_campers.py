@@ -154,3 +154,15 @@ def imprimir_camper_info():
             print(f"Documento: {doc}, Nombre: {nombre} {apellido}")
         else:
             print(f"No se encontró información completa para el camper con documento {doc}.")
+
+def imprimir_nota_camper():
+    global data
+    doc = input("Ingrese el documento del camper: ")
+    if doc in data:
+        camper = data[doc]
+        nombre = camper.get("Nombre", "")
+        apellido = camper.get("apellido", "")
+        nota = camper.get("Nota", "No hay notas registradas para este camper.")
+        print(f"Nombre: {nombre} {apellido}, Nota: {nota}")
+    else:
+        print("¡Error, No se encuentra ningun camper registrado con ese documento!")
