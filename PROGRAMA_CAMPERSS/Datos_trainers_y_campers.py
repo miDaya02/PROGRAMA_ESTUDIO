@@ -1,6 +1,5 @@
 def imprimir_datos_trainer_camper(doc_trainer, doc_camper):
     global data
-
     
     if doc_trainer in data:
         trainer = data[doc_trainer]

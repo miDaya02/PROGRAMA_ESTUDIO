@@ -2,7 +2,7 @@ import json
 
 data = {}
 
-Archivo = "Trainer.json"
+Archivo = "/home/dayanna/PROGRAMA_CAMPERSS-20240605T110828Z-001/PROGRAMA_CAMPERSS/Trainer.json"
 
 def guardar_datos():
     global data
@@ -70,11 +70,13 @@ def grupo_del_trainer():
     doc = input("Documento del trainer : ")
     if doc in data:
         grupotrainer = input("Grupo del trainer: ")
-        data[doc]["Area del trainer"] = grupotrainer
-        print("Area del trainer actualizada")
-        guardar_datos()
+        data[doc]["Grupo trainer"] = grupotrainer  
+        print("Grupo del trainer actualizado")
+        guardar_datos()  
     else:
-        print("No se ha registrado ningun trainer con ese documento")
+        print("No se ha registrado ningún trainer con ese documento")
+
+
     
 def imprimir_trainer_info():
     global data
@@ -85,4 +87,4 @@ def imprimir_trainer_info():
         if nombre and apellidos:
             print(f"Documento: {doc}, Nombre: {nombre} {apellidos}")
         else:
-            print(f"No se encontró información completa para el trainer con documento {doc}.")
+            print(f"No se encontró informacion con ese documento {doc}.")

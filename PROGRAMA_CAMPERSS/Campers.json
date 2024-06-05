@@ -1,0 +1,26 @@
+{
+    "12345": {
+        "Nombre": "Mario",
+        "apellido": "Fulano",
+        "direccion": "Calle 54-25",
+        "acudiente": "Maria Dolores",
+        "telefono": 31025469870,
+        "Estado": "",
+        "Riesgo": "",
+        "Ruta": "",
+        "Nota": 51.8,
+        "Grupo": "U2"
+    },
+    "6789": {
+        "Nombre": "Sartiue",
+        "apellido": "Kiahn",
+        "direccion": "Cra 45",
+        "acudiente": "Gyatsm majsb",
+        "telefono": 31026972245,
+        "Estado": "",
+        "Riesgo": "Condicional",
+        "Ruta": "",
+        "Nota": 54.2,
+        "Grupo": ""
+    }
+}

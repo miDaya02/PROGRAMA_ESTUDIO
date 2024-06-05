@@ -11,9 +11,7 @@ print("**************************")
 
 
 def menu_principal():
-    Registros_campers.cargar_datos()
     while True:
-        
         print("Indique su rol \n 1. Coordinador@ \n 2. Trainer \n 3. Camper \n 4. Salir")
         opcion = 0
         try:
@@ -27,6 +25,7 @@ def menu_principal():
             print("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨")
 
             print("1. Trainers \n 2.Campers \n 3. Mostrar grupos de trainers \n 4. Reportes \n 5. Para sair")
+
             opci = int(input("¿Qué desea realizar?: "))
             if opci == 1:
                 print("==============================")
@@ -34,6 +33,7 @@ def menu_principal():
                 print("==============================")
                 print("")
                 print("1. Registar Trainer \n 2. Modificar Trainer")
+
                 opc2=int(input("Indique una opción: "))
                 if opc2 == 1:
                     Registros_trainers.registrar_trainer()
@@ -45,7 +45,6 @@ def menu_principal():
                     opcc=int(input("Indique una opción: "))
                     if opcc ==1:
                         Registros_trainers.horario_trainer()
-                        Registros_trainers.imprimir_trainer_info()
                         Registros_trainers.cargar_datos()
                     elif opcc ==2:
                         Registros_trainers.area_trainer()
@@ -119,13 +118,18 @@ def menu_principal():
 
                     
         elif opcion == 2:
-            print("1. Asignar notas a un camper \n 2.Mostrar un grupo \n 3.Salir") 
-            opcion2= int(input("Escoja una opción: "))    
+            print("1. Asignar notas a un camper \n 2. Mostrar un grupo \n 3. Salir") 
+            opcion2 = int(input("Escoja una opción: "))    
             if opcion2 == 1:
-                Registros_campers.imprimir_camper_info()
-                Registros_campers.nota_camper
-                Registros_campers.cargar_datos
+                
+                Registros_campers.nota_camper()
+                Registros_campers.imprimir_camper_info()  
+                Registros_campers.cargar_datos()  
+
             elif opcion2 == 2:
+                print("2. Mostrar un grupo")  
+            elif opcion2 == 3:
+
                 print("------------------------")
                 print("-       SALIENDO       -")
                 print("------------------------")
@@ -134,7 +138,10 @@ def menu_principal():
             print("1. Ver trainers y Campers \n 2. Salir")
             opciones = int(input("Escoja una opción: "))
             if opciones == 1:
-                if opciones == 1:
-                    Datos_trainers_y_campers.imprimir_datos_trainer_camper()
+                Datos_trainers_y_campers.imprimir_datos_trainer_camper() 
+                print("------------------------")
+                print("-       SALIENDO       -")
+                print("------------------------")
+
 
 print(menu_principal())
