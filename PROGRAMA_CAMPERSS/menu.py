@@ -14,6 +14,7 @@ def menu_principal():
     while True:
         print("Indique su rol \n 1. Coordinador@ \n 2. Trainer \n 3. Camper \n 4. Salir")
         opcion = 0
+
         try:
             opcion = int(input("Indique una opción: "))
         except Exception:

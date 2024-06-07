@@ -2,7 +2,7 @@ import json
 
 data = {}
 
-Archivo = "/home/dayanna/PROGRAMA_CAMPERSS-20240605T110828Z-001/PROGRAMA_CAMPERSS/Trainer.json"
+Archivo = "Trainer.json"
 
 def guardar_datos():
     global data

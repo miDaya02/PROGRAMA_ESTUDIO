@@ -2,7 +2,7 @@ import json
 
 data = []
 
-RUTA_ARCHIVO = "rutas.json"
+RUTA_ARCHIVO = "Rutas.json"
 
 def guardar_datos():
     global data
