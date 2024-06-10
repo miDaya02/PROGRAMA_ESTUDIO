@@ -1,0 +1,31 @@
+{
+    "123456": {
+        "nombre": "Juan Perez",
+        "cargo": "Analista",
+        "hora_entrada": "",
+        "hora_salida": "",
+        "advertencia": "",
+        "estado": "despedido"
+    },
+    "1234": {
+        "nombre": "Mario",
+        "cargo": "Jefe",
+        "hora_entrada": "17:36",
+        "hora_salida": "11:30",
+        "advertencia": "Salida temprano"
+    },
+    "4567": {
+        "nombre": "Diego",
+        "cargo": "Portero",
+        "hora_entrada": "",
+        "hora_salida": "",
+        "advertencia": ""
+    },
+    "78945": {
+        "nombre": "Pepito",
+        "cargo": "Zapatero",
+        "hora_entrada": "",
+        "hora_salida": "",
+        "advertencia": ""
+    }
+}
