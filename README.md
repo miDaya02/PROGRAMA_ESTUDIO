@@ -1,4 +1,4 @@
-# CineSuit 🌏🌐
+#  Registro de empleados 🌏🌐
 
 ## Tabla de contenido
 | Indice | Título  |
@@ -8,23 +8,22 @@
 | 3. | [Tecnologías Utilizadas](#Tecnologias) |
 | 4. | [Uso del Repositorio](#Uso) |
 | 5. | [Instrucciones de Ejecución](#Instrucciones) |
-| 6. | [Mapa](#Mapa) |
-| 7. | [Autores](#Autores) |
+| 6. | [Autora](#Autora) |
 
 ## Descripcion🚀
 
-El proyecto CineSuit consiste en un aplicativo de un cine en desarrollo que se desea un aplicativo que le permita añadir sus peliculas, sus funciones a su vez que le permite a los usuarios reservar sus asientos en las funciones deseadas.
+El proyecto Estudio consiste en un aplicativo de un programa que permita a los administradores modificar marcar hora de ingreso y de salida, además que cuando alguien llegue tarde o salga temprano se muestre una alerta.
 
 ## Caracteristicas🧮
 
-1. **Admin** 👥: Permite registrar y añadir todo lo necesario que se necesita en la funcionalidad de cine
+1. **Admin** 👥: Permite registrar y despedir empleados.
 
-2. **Usuario** 🌐: Permite acceder a las peliculas y a la cartelera para realizar la reserva o cancelar la reserva
-
+> [!NOTE]
+>El administrador también puede listar y modificar información, la hora se marca automaticamente.
 
 ## Tecnologias🖥️
 
-- **Python** 🐍: Todas la aplicacion esta hecha con python.
+- **Python** 🐍: Todas la aplicacion esta hecha con Python.
 
 
 ## Instrucciones📐
@@ -33,29 +32,7 @@ El proyecto CineSuit consiste en un aplicativo de un cine en desarrollo que se d
 2. Configura adecuadamente todo lo adecuado drespecto a python.
 3. Ejecuta el proyecto desde la terminal.
 
-## Mapa 
 
-```mermaid
-graph TD
-    A[Cinesuit] --> B[Administrador]
-    A --> C[Usuario]
-    C --> D[Reservar]
-    C --> E[Cancelar Reserva]
-    C --> F[Cartelera]
-    B --> G[Administrar Funciones]
-    B --> H[Administrar Peliculas]
-    B --> I[Administrar Cartelera]
-```
-
-
-## Autores👤
-
-[Leonardo Gonzalez](https://github.com/DLeonardoG)
-
-[Laura Rodríguez](https://github.com/laura2ndrea)
+## Autora👤
 
 [Michelle Sánchez](https://github.com/miDaya02)
-
-[Mariana Rueda](https://github.com/mariana34r)
-
-[Juan Esteban Alfonso](https://github.com/juanalfonso
