@@ -1,4 +1,4 @@
-#  Registro de empleados 🌏🌐
+#  Registro de empleados 
 
 ## Tabla de contenido
 | Indice | Título  |
